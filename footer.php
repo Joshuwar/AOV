@@ -11,10 +11,11 @@
 				</div>
 				<div class="column2 left">
 					<?php  
-					$the_query = new WP_Query('name=biog');
+					$the_query = new WP_Query('pagename=biog');
 					while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+					
 					<h3 class="fixed"><?php the_title(); ?></h3>
-						<?php the_title(); ?>
+
 					<p><?php the_content(); ?></p>
 					<?php
 					endwhile;
