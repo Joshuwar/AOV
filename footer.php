@@ -4,9 +4,9 @@
 		<div class="jbasewrap overflow">
 			<div class="grid12col margintop push4">
 				<div class="column1 left">
-					<h3 class="fixed">Elsewhere</h3>
+					<h3 class="fixed">Links</h3>
 					<ul class="noBullets">
-						<?php wp_list_bookmarks( 'categorize=0&title_before=&title_after=&title_li=0&category_name=elsewhere' ); ?>
+						<?php wp_list_bookmarks( 'categorize=0&title_before=&title_after=&title_li=0&category_name=links' ); ?>
 					</ul>
 				</div>
 				<div class="column2 left">
