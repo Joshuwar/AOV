@@ -15,19 +15,9 @@
 					$catname = $cat[0]->name;
 					$catlink = get_category_link( $cat[0]->term_id );					
 					?>
-					<a class="fixed" href="<?php echo $catlink; ?>" title="view other <?php echo $catname; ?> posts"><?php echo $catname; ?></a> // <?php echo get_the_date('d F Y'); ?>
+						<a class="fixed" href="<?php echo $catlink; ?>" title="view other <?php echo $catname; ?> posts"><?php echo $catname; ?></a> // <?php echo get_the_date('d F Y'); ?>
 					
 					</p>
-					<?php // to do - check the encoding of the "<" & ">" characters 
-					$next_post = get_next_post();
-					$previous_post = get_previous_post();
-					if($next_post) { ?>
-					<a href="<?php echo get_permalink($next_post->ID); ?>" rel="next" id="next" >></a>
-					<?php }
-					if($previous_post) { ?>
-					<a href="<?php echo get_permalink($previous_post->ID); ?>" rel="prev" id="prev"><</a>
-					<?php } ?>
-				
 				</div>
 				<?php } ?>
 	
