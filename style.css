@@ -179,6 +179,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 400px;
 }
 
+.post .sideembed p {
+    margin: 4px 0 0 -440px;
+    width: 400px;
+}
 
 .webkit .post .sidenote { /* To-Do: get some JS to put the webkit class on the body. */
 	letter-spacing: 0.08em;
