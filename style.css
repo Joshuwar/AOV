@@ -122,11 +122,13 @@ body {
 	padding-right: 10px;
 	width: 450px;
 	float: left;
+	position: relative;
 }
 .rightcol {
 	padding-left: 10px;
 	width: 450px;
 	float: right;
+	position: relative;
 }
 
 .post {
@@ -179,9 +181,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 400px;
 }
 
-.post .sideembed p {
-    margin: 4px 0 0 -440px;
-    width: 400px;
+.post iframe {
+	margin-left: -360px;
 }
 
 .webkit .post .sidenote { /* To-Do: get some JS to put the webkit class on the body. */
