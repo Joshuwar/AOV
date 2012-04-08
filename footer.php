@@ -10,8 +10,17 @@
 					</ul>
 				</div>
 				<div class="column2 left">
-					<h3 class="fixed">Of Joshua Bradley</h3>
-					<p>Hello. I run a small <a href="http://www.withjandj.com" target="_blank">web agency</a> in London. I help people &amp; businesses use the web to improve our lives. There is no &ldquo;about&rdquo; page: hopefully you can get what you need from what you&rsquo;re looking at. Otherwise, <a href="http://www.joshuabradley.co.uk/contact">ask.</a></p>
+					<?php  
+					$the_query = new WP_Query('name=biog');
+					while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+					<h3 class="fixed"><?php the_title(); ?></h3>
+						<?php the_title(); ?>
+					<p><?php the_content(); ?></p>
+					<?php
+					endwhile;
+					wp_reset_postdata();
+					?>
+					
 				</div>
 				<div class="column3 left">
 					<h3 class="fixed">Sections</h3>
@@ -23,12 +32,6 @@
 					<h3 class="fixed">Archival</h3>
 					<ul class="noBullets">
 						<?php wp_list_bookmarks( 'categorize=0&title_before=&title_after=&title_li=0&category_name=archive' ); ?>
-					</ul>
-				</div>
-				<div class="column5 left">
-					<h3 class="fixed">Colophon</h3>
-					<ul class="noBullets">
-						<?php wp_list_bookmarks( 'categorize=0&title_before=&title_after=&title_li=0&category_name=colophon' ); ?>
 					</ul>
 				</div>
 			</div>
