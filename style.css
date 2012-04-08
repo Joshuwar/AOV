@@ -319,10 +319,18 @@ ul#nav li {
 	position: fixed;
 	top: 56px;
 	left: 20px;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	font-family: 'QuicksandBold';	
+}
+
+#sidebar a {
+	color: #b5b5b5;
+}
+#sidebar a:hover,
+#sidebar a:active {
+	color: #212121;
 }
 
 #sidebar ul li {
