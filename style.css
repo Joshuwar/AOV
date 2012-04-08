@@ -312,6 +312,27 @@ ul#nav li {
 }
 
 /*
+------------------------------------------------------------------------------ Sidebar
+*/
+
+#sidebar {
+	position: fixed;
+	top: 56px;
+	left: 20px;
+	
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-family: 'QuicksandBold';	
+}
+
+#sidebar ul li {
+	list-style: none;
+}
+
+
+
+/*
 ------------------------------------------------------------------------------ Post
 */
 
