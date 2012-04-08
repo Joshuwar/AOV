@@ -1,0 +1,19 @@
+/* thanks Ryan Fait - http://ryanfait.com/sticky-footer/ */
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -444px;
+}
+#footer, .push {
+	height: 444px;
+}
+#footer {
+	margin-bottom: 0;
+}

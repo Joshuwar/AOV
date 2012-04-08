@@ -1,0 +1,633 @@
+/*
+Theme Name: Of Joshua Bradley
+Description: Theme for joshuabradley.co.uk
+Author: JB
+Version: 1.0
+Author URI: http://www.joshuabradley.co.uk
+Template: Scaffolding
+*/
+
+/* 
+
+Palette:
+
+Off White 	#fbfbfb;
+Dark Grey 	#212121;
+Light Grey	#b5b5b5;
+Link Grey	#898989; 
+Footer Grey	#090909;
+Red			#ff2e2e;
+
+*/
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('fonts/Quicksand_Book-webfont.eot');
+    src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('fonts/Quicksand_Bold-webfont.eot');
+    src: url('fonts/Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Bold-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('fonts/Quicksand_Light-webfont.eot');
+    src: url('fonts/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Light-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Light-webfont.svg#QuicksandLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandBoldOblique';
+    src: url('fonts/Quicksand_Bold_Oblique-webfont.eot');
+    src: url('fonts/Quicksand_Bold_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Bold_Oblique-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Bold_Oblique-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Bold_Oblique-webfont.svg#QuicksandBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LinuxLibertineORegular';
+    src: url('fonts/linlibertine_re-4.7.5ro-webfont.eot');
+    src: url('fonts/linlibertine_re-4.7.5ro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/linlibertine_re-4.7.5ro-webfont.woff') format('woff'),
+         url('fonts/linlibertine_re-4.7.5ro-webfont.ttf') format('truetype'),
+         url('fonts/linlibertine_re-4.7.5ro-webfont.svg#LinuxLibertineORegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LinuxLibertineOItalic';
+    src: url('fonts/linlibertine_it-4.2.6ro-webfont.eot');
+    src: url('fonts/linlibertine_it-4.2.6ro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/linlibertine_it-4.2.6ro-webfont.woff') format('woff'),
+         url('fonts/linlibertine_it-4.2.6ro-webfont.ttf') format('truetype'),
+         url('fonts/linlibertine_it-4.2.6ro-webfont.svg#LinuxLibertineOItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LinuxLibertineOBold';
+    src: url('fonts/linlibertine_bd-4.1.5ro-webfont.eot');
+    src: url('fonts/linlibertine_bd-4.1.5ro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/linlibertine_bd-4.1.5ro-webfont.woff') format('woff'),
+         url('fonts/linlibertine_bd-4.1.5ro-webfont.ttf') format('truetype'),
+         url('fonts/linlibertine_bd-4.1.5ro-webfont.svg#LinuxLibertineOBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+	font-family: 'LinuxLibertineORegular', 'Linux Libertine', 'Minion Pro', 'Minion', Georgia, 'Times', 'Garamond', Serif;
+	color: #212121;
+	background: #fbfbfb;
+	font-size: 18px;
+}
+
+
+.jbasewrap {
+	width: 940px; 
+	padding-right: 21px;
+}
+
+/*
+------------------------------------------------------------------------------ Generic Layout
+*/
+
+.leftcol {
+	padding-right: 10px;
+	width: 450px;
+	float: left;
+}
+.rightcol {
+	padding-left: 10px;
+	width: 450px;
+	float: right;
+}
+
+.post {
+	margin-bottom: 60px;
+}
+
+
+/*
+------------------------------------------------------------------------------ Generic Typography
+*/
+
+blockquote {
+	font-family: 'LinuxLibertineOItalic';
+	font-style: normal;
+}
+
+strong {
+	font-family: 'LinuxLibertineOBold';
+	font-style: normal;
+	font-weight: normal;		
+}
+
+em {
+	font-family: 'LinuxLibertineOItalic';
+	font-style: normal;		
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'QuicksandBook';
+	text-transform: uppercase;
+}
+
+.post h2 {
+	display: block;
+    float: left;
+    margin: -8px 0 0 -490px;
+    text-align: right;
+    width: 450px;
+}
+
+.post .sidenote {
+	display: block;
+    float: left;
+    margin: 4px 0 0 -260px;
+    text-align: right;
+    width: 220px;
+    font-size: 13px;
+    line-height: 18px;	
+    letter-spacing: 0.04em;
+}
+
+.webkit .post .sidenote { /* To-Do: get some JS to put the webkit class on the body. */
+	letter-spacing: 0.08em;
+}
+
+h1.fixed, h2.fixed, h3.fixed, h4.fixed, h5.fixed, h6.fixed {
+	font-size: 14px;
+	line-height: 24px;		
+	margin-bottom: 6px; 
+	padding-top: 0px;
+	text-transform: uppercase;
+}
+
+.fixed a:link, .fixed a:visited, a.fixed:link, a.fixed:visited {
+	font-family: 'QuicksandBoldOblique';
+	text-decoration: none;
+}
+
+h1 {
+	text-transform: uppercase;
+	line-height: 48px;
+	font-size: 40px;
+	padding-top: 1px;
+}
+
+#footer .fixed {
+	margin-bottom: 24px;
+	color: white;
+}
+
+#footer .fixed a:link, #footer .fixed a:visited {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.fixed a:hover {
+	color: #ff2e2e;
+}
+
+a:link, a:visited {
+	color: #898989;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+a:hover { 
+	color: #ff2e2e; /* To do: make this into a background colour; */
+	text-decoration: none;
+}
+
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited, li a:link, li a:visited, .meta a:link, .meta a:visited, .large a:link, .large a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, li a:hover, .meta a:hover, .large a:hover {
+	color: #898989
+}
+
+.footer a:link, .footer a:visited {
+	color: #777777;
+	text-decoration: none;
+} 
+
+.footer a:hover, .footer a:active {
+	color: #ff2e2e;
+} 
+
+.footer ul, .footer p {
+	color: #b5b5b5;
+}
+
+.meta {
+	font-family: 'QuicksandBold';
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b5b5b5;
+}
+
+blockquote {
+	padding-left: 40px;
+	letter-spacing: 0.02em;
+}
+
+.caption {
+	
+}
+
+ul.noBullets {
+	margin-left: 0;
+}
+
+ul.noBullets li {
+	list-style: none;
+}
+
+/*
+------------------------------------------------------------------------------ Header
+*/
+
+#header {
+	height: 180px;
+	padding-top: 30px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-family: 'QuicksandBold';
+}
+
+
+
+#logo {
+	font-size: 14px;
+}
+
+ul#nav {
+	font-size: 12px;
+	margin: 2px 0px 0px;
+}
+
+ul#nav li {
+	list-style: none;
+}
+
+#nav a:link, #nav a:visited {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+
+#nav a:hover, 
+#nav a:active {
+	color: #212121;
+}
+
+/*
+------------------------------------------------------------------------------ Post
+*/
+
+#next, #prev {
+	font-family: "QuicksandLight";
+	font-size: 50px;
+	color: #dadada;
+	font-weight: normal;
+	position: fixed;
+	z-index: 0;
+}
+
+#next:hover, #prev:hover {
+	color: #212121;
+}
+
+#next {
+	right:30px;
+	top: 300px;
+}
+
+#prev {
+	left: 30px;
+	top: 300px;
+}
+
+/*
+------------------------------------------------------------------------------ Footer
+*/
+
+#footer {	
+	background-color: #090909;
+	z-index: 1;
+	position: relative;
+	font-family: "QuicksandBook";
+	font-size: 14px;
+}
+
+#footer .jbasewrap {
+	height: 444px;
+}
+
+#footer ul.links {
+	position: absolute;
+	bottom: 12px;	
+}
+
+#footer ul.links li {
+	float: left;
+	list-style: none;
+	padding: 0px 10px;
+	border-left: 1px solid #212121;
+}
+#footer ul.links li:first-child {
+	border-left: none;
+}
+
+.column1 {
+	width: 210px;
+}
+
+.column2 {
+	width: 180px;
+}
+
+.column3 {
+	margin-left: 100px;
+	width: 150px;
+}
+
+.column4 {
+	width: 120px;
+}
+
+.column5 {
+	width: 170px;
+}
+
+
+
+
+
+/*
+------------------------------------------------------------------------------ WP image treatment for posts 
+*/
+
+.alignleft, img.alignleft {
+	margin-right: 20px;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 20px;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.alignnone, img.alignnone {
+	/* not sure about this one */
+	}
+
+
+/*
+------------------------------------------------------------------------------ Image Stuff
+*/
+
+.post .alignleft, .post img.alignleft {
+	margin-left: -490px;
+	margin-top: 6px;
+}
+
+.wp-caption-text {
+	float: left;
+	text-align: left;
+	font-family: 'QuicksandBold';
+	color: #b5b5b5;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+
+/*
+------------------------------------------------------------------------------ Contents
+*/
+
+.contents {
+	margin-bottom: 60px;
+}
+
+.contentlist li {
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 10px;
+	padding-bottom: 1px;
+
+}
+
+.contentlist li p {
+	font-size: 15px;
+	display: none;
+}
+
+.date, .expand, span.sections, ul.sections, .contents h1.fixed, .contents li h2 {
+	font-family: "QuicksandBook";
+	text-transform: uppercase;
+}
+
+.date {
+	display: block;
+	width: 40px;
+	color: #bcbcbc;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.year {
+	font-size: 16px;
+    letter-spacing: 0.08em;
+    padding: 1px 0 0;
+}
+
+ul.sections li, ul.sections {
+	display: inline;
+}
+
+span.sections, ul.sections, .contents h1.fixed {
+	font-size: 14px;
+	color: #cbcbcb;
+}
+
+ul.sections li:after {
+	content: ' // ';
+}
+
+ul.sections li:last-child:after {
+	content: '';
+}
+
+
+span.sections a, ul.sections a, .contents h1.fixed a{
+	color: #cbcbcb;
+	font-family: "QuicksandBook";
+}
+
+span.sections a:hover, ul.sections a:hover, .contents h1.fixed a:hover {
+	color: #212121;
+}
+
+/*
+------------------------------------------------------------------------------ Index
+*/
+
+.index {
+	position: relative;
+}
+	
+.index li {
+	list-style: none;
+}
+
+.index ul {
+	margin-left: 0px;
+}
+
+ul.letters {
+	margin-top: -1px;
+}
+
+.index h2 {
+	/*font-family: "Linux Libertine";
+	font-size: 168px;
+	line-height: 162px;
+	color: #212121;
+	*/
+	font-family: "Linux Libertine";
+	font-size: 120px;
+	line-height: 114px;
+	color: #ddd;
+	width: 240px;
+	float: left;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+li.letter {
+	overflow: hidden;
+	border-top:  1px solid #ebebeb;
+	margin-bottom: 5px;
+	padding-top: 6px;
+	position: relative;
+}
+
+ul.entries {
+	width: 700px;
+	float: right;
+}
+
+li.entry {
+	border-bottom:  1px solid #ebebeb;
+	padding:18px 0px 0px;
+	margin-bottom: -1px;
+}
+
+li.entry:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+li.entry span {
+	font-family: 'LinuxLibertineOBold';
+	text-transform: capitalize;
+	font-size: 18px;
+	letter-spacing: 0.08em;
+	display: block;
+	width: 160px;
+	float: left;
+}
+
+ul.references {
+	overflow: hidden;
+}
+
+li.reference {
+	float: right;
+	width: 540px;
+}
+
+li.reference h4 a {
+	color: #bcbcbc;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+li.reference h4  {
+	margin-bottom: 14px;
+}
+
+li.reference h4 a:hover {
+	color: #212121;
+}
+
+ul.indexNav {
+	position: absolute;
+	top: -54px;
+	font-size: 30px;
+	font-family: "QuicksandBook";
+	background-color: #fbfbfb;
+	padding: 18px 0 12px;
+	width: 940px;
+	text-align: center;
+}
+
+.grid ul.indexNav {
+	background: transparent;
+}
+
+ul.indexNav li {
+	display: inline;
+	padding: 0px 8px;
+	
+}
+
+
+
