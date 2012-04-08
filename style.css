@@ -158,7 +158,7 @@ em {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'QuicksandBook';
-	text-transform: uppercase;
+	text-transform: ;
 }
 
 .post .sidenote {
@@ -190,10 +190,10 @@ h1.fixed, h2.fixed, h3.fixed, h4.fixed, h5.fixed, h6.fixed {
 }
 
 h1 {
-	text-transform: uppercase;
 	line-height: 48px;
 	font-size: 40px;
 	padding-top: 1px;
+	font-family: 'LinuxLibertineORegular', 'Linux Libertine', 'Minion Pro', 'Minion', Georgia, 'Times', 'Garamond', Serif;
 }
 
 #footer .fixed {
@@ -319,7 +319,6 @@ ul#nav li {
 	position: fixed;
 	top: 56px;
 	left: 20px;
-	
 	font-size: 14px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
