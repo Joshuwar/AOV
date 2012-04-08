@@ -3,8 +3,7 @@
 			$slug = basename(get_permalink());
 		 ?>
 		<div id="<?php // the_title(); To do: make this echo the slug?>" class="jbasewrap post pull1 <?php echo $slug; ?>">
-			<div class="leftcol textalignright">
-				
+			<div class="rightcol push3">
 				<h1><?php the_title(); ?></h1>
 				
 				<?php if( !is_page()) { ?> 
@@ -30,9 +29,7 @@
 				</div>
 				<?php } ?>
 	
-			</div>
-			<div class="rightcol push3">
-					<?php the_content(); ?>
+				<?php the_content(); ?>
 			</div>
 			<br class="clearboth" />
 		</div>

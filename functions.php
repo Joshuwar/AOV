@@ -15,6 +15,7 @@ add_post_type_support('page', 'excerpt');
 if ( function_exists( 'register_nav_menu' ) ) {
 	register_nav_menu( 'top_menu', 'Top Menu' );
 	register_nav_menu( 'footer_menu', 'Footer Menu' );
+	register_nav_menu( 'side_menu', 'Side Menu' );
 }
 
 // ************************************ create post type: Case Study
