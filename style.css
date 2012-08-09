@@ -110,7 +110,7 @@ body {
 
 
 .jbasewrap {
-	width: 940px; 
+	width: 1020px; 
 	padding-right: 21px;
 }
 
@@ -126,7 +126,7 @@ body {
 }
 .rightcol {
 	padding-left: 10px;
-	width: 450px;
+	width: 550px;
 	float: right;
 	position: relative;
 }
