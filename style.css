@@ -503,7 +503,7 @@ ul#nav ul li {
 }
 
 .column2 {
-	width: 180px;
+	width: 290px;
 }
 
 .column3 {
@@ -513,6 +513,7 @@ ul#nav ul li {
 
 .column4 {
 	width: 120px;
+	margin-left: 30px;
 }
 
 .column5 {

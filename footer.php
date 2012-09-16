@@ -23,12 +23,6 @@
 					?>
 					
 				</div>
-				<div class="column3 left">
-					<h3 class="fixed">Sections</h3>
-					<ul class="noBullets">
-						<?php wp_list_categories('hierarchical=false&title_li='); ?>
-					</ul>
-				</div>
 				<div class="column4 left">
 					<h3 class="fixed">Archival</h3>
 					<ul class="noBullets">
