@@ -458,6 +458,18 @@ ul#nav ul li {
 	top: 300px;
 }
 
+hr {
+	background-color: #ddd;
+	color: #ddd;
+	border-color: #ddd;
+}
+
+.tags {
+	font-family: "QuicksandBook";
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
 /*
 ------------------------------------------------------------------------------ Footer
 */

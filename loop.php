@@ -24,6 +24,10 @@
 			</div>
 			<div class="rightcol push3">
 				<?php the_content(); ?>
+				<hr>
+				<div class="tags">
+					<?php the_tags(); ?>
+				</div>
 			</div>
 			<br class="clearboth" />
 		</div>
