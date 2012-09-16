@@ -294,7 +294,7 @@ ul.noBullets li {
 
 #header-aov {
 	 /*height: 25px;*/
-	padding: 11px 10px 3px;
+	padding: 7px 10px 3px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	font-family: 'QuicksandBook';
@@ -359,6 +359,46 @@ ul#nav ul li {
 #nav a:hover, 
 #nav a:active {
 	color: #FF2E2e;
+}
+
+/*
+------------------------------------------------------------------------------ Search Form
+*/
+
+#searchform {
+	position: absolute;
+	right: 40px;
+}
+
+#searchform label {
+	display: none;
+}
+
+#searchform input[type=text] {
+	border: none;
+	background-color: #fefefe;
+	top: -2px;
+	height: 14px;
+	padding: 2px 5px;
+	position: relative;
+}
+
+#searchform input[type=submit] {
+	background-color: #333333;
+    border: medium none;
+    height: 20px;
+    position: relative;
+    text-indent: -9999px;
+    top: -1px;
+    width: 20px;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: 3px 2px;
+}
+
+#searchform input[type=submit]:hover {
+	background-color: #ff2e2e;
+	cursor: pointer;
 }
 
 /*

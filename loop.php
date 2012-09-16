@@ -2,7 +2,7 @@
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
 			$slug = basename(get_permalink());
 		 ?>
-		<div id="<?php // the_title(); To do: make this echo the slug?>" class="jbasewrap post pull1 <?php echo $slug; ?>">
+		<div id="<?php // the_title(); To do: make this echo the slug?> " class="jbasewrap post <?php echo $slug; ?>">
 			
 			<div class="leftcol textalignright">
 				
