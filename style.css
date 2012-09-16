@@ -489,6 +489,10 @@ ul#nav ul li {
 	border-left: none;
 }
 
+#footer .printfriendly {
+	display: none;
+}
+
 .column1 {
 	width: 210px;
 }
