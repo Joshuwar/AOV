@@ -340,7 +340,8 @@ ul#nav ul {
 	font-size: 11px;
 	margin-left: 10px;
 	height: 0px;
-	overflow: hidden;
+	width: 0px;
+
 	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
