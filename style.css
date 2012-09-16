@@ -493,6 +493,11 @@ ul#nav ul li {
 	display: none;
 }
 
+.printfriendly a {
+	font-size: 0px;
+	color: #FBFBFB;
+}
+
 .column1 {
 	width: 210px;
 }
