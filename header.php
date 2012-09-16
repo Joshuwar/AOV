@@ -57,24 +57,22 @@
 	<a name="top" id="top"></a>
 	<!--<div><a class="trigger" href="javascript:func()">Grid</a></div>-->
 	<div id="wrap" class="png_bg">
-		<div class="jbasewrap">
-			<div class="grid12col png_bg">
-				<div id="header">
-					<div class="leftcol textalignright">
-						<a id="logo" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-					</div>
-					<div class="rightcol">
-						<?php wp_nav_menu( array(
-							'container'		 => 'false',
-							'theme_location' => 'top_menu',
-							'menu_id' => 'nav',
-							'menu_class' => ''
-							)
-						); ?>
-					</div>
-				</div>
+		<div id="header-aov">
+			<div class="">
+				<a id="logo" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+			</div>
+			<div class="">
+				<?php wp_nav_menu( array(
+					'container'		 => 'false',
+					'theme_location' => 'top_menu',
+					'menu_id' => 'nav',
+					'menu_class' => ''
+					)
+				); ?>
 			</div>
 		</div>
+		
+		
 
 
 

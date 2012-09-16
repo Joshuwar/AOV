@@ -111,7 +111,7 @@ body {
 
 .jbasewrap {
 	width: 1020px; 
-	padding-right: 21px;
+	padding: 100px 21px 0px 0px;
 }
 
 /*
@@ -292,37 +292,69 @@ ul.noBullets li {
 ------------------------------------------------------------------------------ Header
 */
 
-#header {
-	height: 180px;
-	padding-top: 30px;
+#header-aov {
+	 /*height: 25px;*/
+	padding: 11px 10px 3px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	font-family: 'QuicksandBold';
+	font-family: 'QuicksandBook';
+	background-color: #090909;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 
+#header-aov a {
+	color: white;
+}
 
+#header-aov a:hover {
+	color: #FF2E2e;
+}
 
 #logo {
 	font-size: 14px;
+	margin-right: 80px;
+	float: left;
 }
 
 ul#nav {
 	font-size: 12px;
 	margin: 2px 0px 0px;
+	float: left;
 }
 
 ul#nav li {
 	list-style: none;
+	float: left;
+	padding-right: 20px;
+}
+
+ul#nav li:hover ul {
+	height: 100px; /*Set this height appropriate to the content - to-do: make this JS */
+	opacity: 1;
+}
+
+ul#nav ul {
+	opacity: 0;
+	font-size: 11px;
+	margin-left: 10px;
+	height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 }
 
 #nav a:link, #nav a:visited {
-	color: #b5b5b5;
 	text-decoration: none;
 }
 
 #nav a:hover, 
 #nav a:active {
-	color: #212121;
+	color: #FF2E2e;
 }
 
 /*
@@ -394,6 +426,7 @@ ul#nav li {
 
 #footer .jbasewrap {
 	height: 444px;
+	padding-top: 0px;
 }
 
 #footer ul.links {

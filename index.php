@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<?php get_template_part('sidebar'); ?>
+	<?php //  get_template_part('sidebar'); ?>
 		
 	<?php get_template_part('loop'); ?>
 	

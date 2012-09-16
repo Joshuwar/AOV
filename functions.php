@@ -472,6 +472,7 @@ class Non_Link_Walker extends Walker_Nav_Menu
 	}
 }
 
+add_filter('show_admin_bar', '__return_false');  
 
 
 
