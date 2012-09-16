@@ -506,6 +506,10 @@ hr {
 	display: none;
 }
 
+.printfriendly {
+	margin-top: 10px;
+}
+
 .printfriendly a {
 	font-size: 0px;
 	color: #FBFBFB;
