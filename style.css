@@ -348,6 +348,10 @@ ul#nav ul {
 	transition: all 0.4s ease-out;
 }
 
+ul#nav ul li {
+	float: none;
+}
+
 #nav a:link, #nav a:visited {
 	text-decoration: none;
 }
