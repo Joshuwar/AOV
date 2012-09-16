@@ -331,7 +331,7 @@ ul#nav li {
 }
 
 ul#nav li:hover ul {
-	height: 100px; /*Set this height appropriate to the content - to-do: make this JS */
+	height: 170px; /*Set this height appropriate to the content - to-do: make this JS */
 	opacity: 1;
 }
 
