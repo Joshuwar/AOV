@@ -1,6 +1,6 @@
 <?php 
 
-// Template Name: Contents Template
+// Template Name: Contents Alpha Template
 
 get_header(); ?>
 		<div class="jbasewrap contents">
@@ -29,7 +29,7 @@ get_header(); ?>
 				<?php // wp_list_categories('hierarchical=false&title_li='); ?>
 			</ul> -->
 			<?php // single_cat_title();
-			$query = new WP_query('posts_per_page=-1');
+			$query = new WP_query('posts_per_page=-1&orderby=title&order=ASC');
 			
 			if ( $query->have_posts() ) : ?>
 			<ul class="contentlist noBullets">
