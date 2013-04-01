@@ -339,6 +339,10 @@ ul#nav li:hover ul {
 	opacity: 1;
 }
 
+ul#nav li ul ul {
+	height: auto; /*sort out multiple subnavs*/
+}
+
 ul#nav ul {
 	opacity: 0;
 	font-size: 11px;
