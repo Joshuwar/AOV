@@ -5,11 +5,11 @@ $(document).ready(function(){
 		$('body').addClass('webkit');
 	}
 	
-	$.localScroll({duration:400, offset:40});
+	$.localScroll({duration:400, offset:-70});
 	
 	
 	var $nav = $('ul.indexNav'),
-		navFixedTop = 0, /* this is how far we want the nav to stay from the top of the page when it's fixed */
+		navFixedTop = 40, /* this is how far we want the nav to stay from the top of the page when it's fixed */
 		navFixedLeft = $nav.offset().left,
 		navPosLeft = $nav.css('left'),
 		navPosTop = $nav.css('top'),
