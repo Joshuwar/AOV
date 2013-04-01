@@ -335,7 +335,7 @@ ul#nav li {
 }
 
 ul#nav li:hover ul {
-	height: 200px; /*Set this height appropriate to the content - to-do: make this JS */
+	height: 230px; /*Set this height appropriate to the content - to-do: make this JS */
 	opacity: 1;
 }
 
@@ -351,10 +351,6 @@ ul#nav ul {
 	-o-transition: all 0.4s ease-out;
 	-ms-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
-}
-
-ul#nav:hover ul.sub-menu {
-	height: auto;
 }
 
 ul#nav ul li {
