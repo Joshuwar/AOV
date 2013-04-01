@@ -77,7 +77,12 @@
 						
 						<?php if ($letter != $prev_row) { ?>
 						</li><!-- / entry -->
-						<?php } ?>
+						<?php } 
+
+							print_r($tag);
+
+						?>
+
 						<li class='entry'><span><?php echo ($tagname); ?></span>
 							<?php $query = new WP_Query( "tag=$tagname" ); ?>
 							<ul class="references">
