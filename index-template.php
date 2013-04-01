@@ -53,6 +53,7 @@
 				
 				$tag_link = get_tag_link($tag->term_id);
 				$tagname = $tag->name;
+				$tagslug = $tag->slug;
 				$letter = strtoupper(substr($tagname,0,1));
 				$letters[] = $letter;
 				
@@ -84,7 +85,7 @@
 						?>
 
 						<li class='entry'><span><?php echo ($tagname); ?></span>
-							<?php $query = new WP_Query( "tag=$tagname" ); ?>
+							<?php $query = new WP_Query( "tag=$tagslug" ); ?>
 							<ul class="references">
 							<?php
 							// The Loop
