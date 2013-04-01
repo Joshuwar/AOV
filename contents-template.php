@@ -23,10 +23,11 @@ get_header(); ?>
 			?>-->
 			
 			<h1 class="fixed">Contents Ordered by Date</h1>
-			<span class="sections">View Section: </span>
-			<ul class="noBullets sections">
-				<?php wp_list_categories('hierarchical=false&title_li='); ?>
-			</ul>
+
+			<!-- <span class="sections">View Section: </span> -->
+			<!-- <ul class="noBullets sections">
+				<?php // wp_list_categories('hierarchical=false&title_li='); ?>
+			</ul> -->
 			<?php // single_cat_title();
 			$query = new WP_query('posts_per_page=-1');
 			
