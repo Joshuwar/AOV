@@ -32,6 +32,7 @@
 			<ul class="noBullets sections">
 				<?php // wp_list_categories('hierarchical=false&title_li='); ?>
 			</ul> -->
+			 <p><?php echo category_description( $category_id ); ?></p>
 			<?php 
 			
 			if ( have_posts() ) : ?>
