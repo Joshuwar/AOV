@@ -334,7 +334,8 @@ ul#nav li {
 	padding-right: 20px;
 }
 
-ul#nav li:hover ul {
+/* ul#nav li:hover ul { */
+ul#nav li ul {
 	height: 300px; /*Set this height appropriate to the content - to-do: make this JS */
 	opacity: 1;
 }
@@ -343,7 +344,7 @@ ul#nav ul {
 	opacity: 0;
 	font-size: 11px;
 	margin-left: 10px;
-	height: 0px;
+/*	height: 0px; */
 	width: 0px;
 
 	-webkit-transition: all 0.4s ease-out;
