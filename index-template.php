@@ -83,8 +83,11 @@
 							echo 'BONGO';
 							print_r($tag);
 							echo 'BONGO';
-							$query = new WP_Query( "tag_id={$tag->term_taxonomy_id}" ); ?>
-				
+							$query = new WP_Query( "tag_id={$tag->term_taxonomy_id}" );
+
+							echo 'BONGO';
+							print_r($query);
+							echo 'BONGO'; ?>
 							<ul class="references">
 							<?php
 							// The Loop
