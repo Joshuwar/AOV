@@ -78,11 +78,7 @@
 						
 						<?php if ($letter != $prev_row) { ?>
 						</li><!-- / entry -->
-						<?php } 
-
-							print_r($tag);
-
-						?>
+						<?php } ?>
 
 						<li class='entry'><span><?php echo ($tagname); ?></span>
 							<?php $query = new WP_Query( "tag=$tagslug" ); ?>
