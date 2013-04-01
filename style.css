@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post .sidenote {
-	display: block;
+	display: block; 
     float: left;
     margin: 4px 0 0 -260px;
     text-align: right;
@@ -309,6 +309,7 @@ ul.noBullets li {
 
 #header-aov a {
 	color: white;
+	display: inline-block;
 }
 
 #header-aov a:hover {
@@ -709,6 +710,7 @@ li.entry {
 	border-bottom:  1px solid #ebebeb;
 	padding:18px 0px 0px;
 	margin-bottom: -1px;
+	overflow: hidden;
 }
 
 li.entry:last-child {
@@ -724,6 +726,7 @@ li.entry span {
 	display: block;
 	width: 160px;
 	float: left;
+	margin-bottom: 14px;
 }
 
 ul.references {
