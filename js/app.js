@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$('body').addClass('webkit');
 	}
 	
-	$.localScroll({duration:400, offset:-54});
+	$.localScroll({duration:400, offset:40});
 	
 	
 	var $nav = $('ul.indexNav'),

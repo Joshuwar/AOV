@@ -734,7 +734,8 @@ ul.references {
 }
 
 li.reference {
-	float: right;
+	float: left;
+	margin-left: 20px;
 	width: 540px;
 }
 
@@ -754,7 +755,7 @@ li.reference h4 a:hover {
 
 ul.indexNav {
 	position: absolute;
-	top: -54px;
+	top: 40px;
 	font-size: 30px;
 	font-family: "QuicksandBook";
 	background-color: #fbfbfb;
