@@ -24,17 +24,14 @@
  			} else if ( is_category() ) { 
 	 			 ?>
 	 			This is the  
- 			<?php single_cat_title(); ?> Section . <a href="<?php bloginfo( 'url' );  ?>/contents">View Contents Ordered by date</a><?php
- 			} else {
-			?>Contents Ordered by Date
+ 			<?php single_cat_title(); ?> Section 
 			<?php } ?>
 			</h1>
-			<span class="sections">View Section: </span>
+
+			<!-- <span class="sections">View Section: </span>
 			<ul class="noBullets sections">
-				<?php wp_list_categories('hierarchical=false&title_li='); ?>
-			</ul>
-			<?php // single_cat_title();
-			 ?>
+				<?php // wp_list_categories('hierarchical=false&title_li='); ?>
+			</ul> -->
 			<?php 
 			
 			if ( have_posts() ) : ?>
