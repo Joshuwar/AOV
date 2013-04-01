@@ -79,8 +79,10 @@
 						</li><!-- / entry -->
 						<?php } ?>
 						<li class='entry'><span><?php echo ($tagname); ?></span>
-							
 							<?php
+							echo 'BONGO';
+							print_r($tag);
+							echo 'BONGO';
 							$query = new WP_Query( "tag_id={$tag->term_taxonomy_id}" ); ?>
 				
 							<ul class="references">
