@@ -9,7 +9,7 @@ $(document).ready(function(){
 	
 	
 	var $nav = $('ul.indexNav'),
-		navFixedTop = 40, /* this is how far we want the nav to stay from the top of the page when it's fixed */
+		navFixedTop = 36, /* this is how far we want the nav to stay from the top of the page when it's fixed */
 		navFixedLeft = $nav.offset().left,
 		navPosLeft = $nav.css('left'),
 		navPosTop = $nav.css('top'),
