@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php } */
 			?>-->
 			
-			<h1 class="fixed">Contents Ordered by Date</h1>
+			<h1 class="fixed">Contents ordered alphabetically</h1>
 			<a href="<?php echo get_permalink(29); ?>">View contents ordered by date</a>
 
 			<!-- <span class="sections">View Section: </span> -->
